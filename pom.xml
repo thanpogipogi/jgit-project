@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>thanpogipogi</groupId>
+  <artifactId>jgit-project</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+    <scm>
+        <url>https://github.com/thanpogipogi/jgit-project</url>
+        <connection>scm:git:git://github.com/thanpogipogi/jgit-project.git</connection>
+        <developerConnection>scm:git:git@github.com:thanpogipogi/jgit-project.git</developerConnection>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipse.jgit</groupId>
+            <artifactId>org.eclipse.jgit</artifactId>
+            <version>4.0.3.201509231615-r</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jgit</groupId>
+            <artifactId>org.eclipse.jgit.http.server</artifactId>
+            <version>4.0.3.201509231615-r</version>
+        </dependency>
+    </dependencies>
+
+</project>
